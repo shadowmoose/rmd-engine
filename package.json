@@ -17,9 +17,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+[TODO]"
+        "url": "https://github.com/shadowmoose/rmd-engine.git"
     },
-    "bugs": "[TODO]",
+    "bugs": "https://github.com/shadowmoose/rmd-engine/issues",
     "scripts": {
         "test": "jest --runInBand",
         "migrate": "typeorm migration:generate -p"
