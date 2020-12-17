@@ -1,0 +1,67 @@
+{
+    "name": "rmd-engine",
+    "version": "0.0.0",
+    "private": false,
+    "license": "MIT",
+    "author": "ShadowMoose",
+    "description": "The engine that powers Reddit Media Downloader.",
+    "homepage": "https://github.com/shadowmoose/RedditDownloader",
+    "keywords": [],
+    "umdName": "RedditDownloader",
+    "buildEntryPoint": "index",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+[TODO]"
+    },
+    "bugs": "[TODO]",
+    "scripts": {
+        "test": "jest --runInBand",
+        "migrate": "typeorm migration:generate -p"
+    },
+    "devDependencies": {
+        "@types/cheerio": "^0.22.22",
+        "@types/express": "^4.17.9",
+        "@types/jest": "^26.0.9",
+        "@types/mime-types": "^2.1.0",
+        "@types/node": "^14.0.26",
+        "@types/puppeteer": "^5.4.0",
+        "@types/request": "^2.48.5",
+        "@types/snoowrap": "^1.19.0",
+        "@types/typescript": "^2.0.0",
+        "@types/uuid": "^8.3.0",
+        "@types/yargs": "^15.0.10",
+        "jest": "^26.2.2",
+        "jest-config": "^26.2.2",
+        "puppeteer": "^5.5.0",
+        "terser": "^5.0.0",
+        "ts-jest": "^26.1.4",
+        "typedoc": "^0.19.2",
+        "typescript": "^3.9.7"
+    },
+    "peerDependencies": {},
+    "dependencies": {
+        "ajv": "^6.12.6",
+        "axios": "^0.21.0",
+        "better-sqlite3": "^7.1.1",
+        "cheerio": "^1.0.0-rc.3",
+        "dhash-image": "1.2.1",
+        "env-paths": "^2.2.0",
+        "express": "^4.17.1",
+        "ffbinaries": "^1.1.4",
+        "mime-types": "^2.1.27",
+        "reflect-metadata": "^0.1.13",
+        "sanitize-filename": "^1.6.3",
+        "snoowrap": "^1.21.0",
+        "typeorm": "^0.2.29",
+        "uuid": "^8.3.1",
+        "yaml": "^1.10.0",
+        "yargs": "^16.1.1",
+        "youtube-dl-wrap": "^2.0.0"
+    }
+}
